@@ -4,13 +4,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Fredoka One', cursive;
+}
 .container{
     width: 70%;
     margin:auto;
     text-align: center;
 }
 /*main*/
-.clearfix ::after{
+.clearfix::after{
     content:"";
     display: table;
     clear: both;
@@ -24,10 +28,18 @@ h1 {
 .columns {
      background-color: black;
      color:white ;
+     float: left;
+     width: calc(100% / 3);
+     padding: 0 10px;
 }
 
 img {
     width: 60px;
     float: left;
-    margin-right: 10px;
+
+}
+
+.content {
+    float: right;
+    width: calc(100%- 160px);
 }

@@ -9,9 +9,10 @@ body{
     font-family: 'Fredoka One', cursive;
 }
 .container{
-    width: 70%;
+    width: 100%;
     margin:auto;
     text-align: center;
+    padding-bottom: 50px;
 }
 /*main*/
 .clearfix::after{
@@ -26,11 +27,17 @@ h1 {
 }
 
 .columns {
-     background-color: black;
-     color:white ;
-     float: left;
-     width: calc(100% / 3);
-     padding: 0 10px;
+     color:white ; 
+     
+}
+
+.col{
+    background-color: black;
+    float: left;
+    padding-right: 10px;
+    margin: 10px 60px;
+    
+    
 }
 
 img {
@@ -42,4 +49,9 @@ img {
 .content {
     float: right;
     width: calc(100%- 160px);
+
+}
+
+.blue{
+    color: rgb(97, 190, 181);
 }
